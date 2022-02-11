@@ -1,0 +1,7 @@
+Given two rectangles, calculate how much of the two rectangles are not covered by a third rectangle.
+The first two rectangles are guaranteed to not intersect.
+
+uncovered = area(first) + area(second) - intersect(first, third) - intersect(second, third);
+
+PROBLEM with intersect function was that if the two rectangles did not intersect it would
+an incorrect answer.
