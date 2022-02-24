@@ -31,8 +31,6 @@ int main() {
             cout << nodes[i][j] << " ";
         }; cout << "\n";
     }
-
-    
 }
 
 int cowtoi(string cow) {
